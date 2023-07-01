@@ -75,6 +75,8 @@ a{
     margin: 0 20px;
 }
 
+
+
 /* Slider */
 
 .slider{
@@ -180,7 +182,7 @@ a{
 /* Falcuties */
 
 .falcuties{
-    height: 1000px;
+    height: 600px;
 }
 
 .falcuties__content{
@@ -190,14 +192,14 @@ a{
 
 }
 
-.falcuties__top{
+.falcuties__top .falcuties__bottom {
     display: inline-block;
     width: 100%;
 }
 
 .falcuties__top .falcuties__item{
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: #032046;
     color: white;
     text-align: center;
@@ -205,7 +207,7 @@ a{
 
 .falcuties__bottom .falcuties__item{
     float: left;
-    width: 25%;
+    width: 20%;
     background-color: #032046;
     color: white;
     text-align: center;
@@ -219,7 +221,7 @@ a{
 }
 
 .falcuties__item i{
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding-bottom: 10px;
 }
 
@@ -244,9 +246,11 @@ a{
 }
 
 .news__post{
-    padding-top: 50px;
+    padding: 30px 15px;
     width: 100%;
-    height: 100px;
+    float: left;
+    background-color: white;
+    margin-bottom: 2px;
 }
 
 .news__content{
@@ -341,7 +345,10 @@ a{
 
 .event__text span{
     color: darkblue;
+    font-weight: 400;
 }
+
+
 
 .viewAllBtn{
     text-align: right;
@@ -356,6 +363,10 @@ a{
     padding: 20px 30px;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.news__left .viewAllBtn{
+    margin-top: 30px;
 }
 
 
